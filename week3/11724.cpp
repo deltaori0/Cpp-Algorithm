@@ -45,8 +45,6 @@ int main() {
 	int total = 0;
 	for (int i=1; i<n+1; i++) {
 		if (!chk[i]) {
-			// q.push(i);
-			// chk[i] = true;
 			bfs(i);
 			total += 1;
 		}
